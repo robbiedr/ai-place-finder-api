@@ -1,0 +1,21 @@
+{
+  "name": "ai-place-finder-api",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.2.2",
+    "@sinclair/typebox": "^0.34.30",
+    "elysia": "^1.2.25",
+    "openai": "^4.89.0"
+  },
+  "scripts": {
+    "start": "bun run src/server.ts"
+  }
+}
